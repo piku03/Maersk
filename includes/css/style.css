@@ -1,0 +1,108 @@
+.container {
+    width: 100%;
+}
+h1{
+    text-align: center;
+    background: #333333;
+    color: white;
+    padding: 10px 0;
+    margin: 0 -15px;
+    letter-spacing: 1px;
+}
+.box-container {
+    margin: 0 auto;
+    text-align: center;
+}
+.left-col {
+    width: 100%;
+    margin-top: 80px;
+}
+.myBox{
+    font-size: 25px; 
+    padding: 24px 0;   
+}
+.bgsmall {
+    width: 3%;
+    height: 45px;
+    float: left;
+}
+.bglarge {
+    width: 97%;
+    height: 45px;
+    float: right;
+    background: #BFBFBF;
+}
+.right-col {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70px;
+    margin: auto;    
+}
+button{
+    width:150px;
+    padding: 15px 0;
+    background: #72C3DC;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0 5px #2B8EAD;
+    margin: 0 10px 15px 0;
+}
+.left-col p {
+    display: none;
+    font-style: italic;
+}
+#name {
+    display: block;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+@media screen and (min-width: 960px) {
+    h1{
+        padding: 0;
+        margin: 0;
+        background: none;
+        color:#000;
+        margin-bottom: 15px;
+    }
+    .left-col {
+        width: 65%;
+        float: left;
+        margin-top: 0;
+        padding: 5px 0;
+    }
+    .right-col {
+        position: relative;
+        top: 0;
+        padding:5px 0
+    }
+    .box-container {
+        margin: 0 auto;
+        text-align: center;
+        width: 650px;
+        height: 400px;
+        background: #EFEFEF;
+    }
+    .bglarge {
+        float: none;
+        background: none;
+        padding: 30px 60px;
+        width: 0;
+    }
+    .myBox{
+        display: inline-block;        
+        font-weight: 700;
+        color: #fff;
+        padding: 0;
+    }
+    .left-col p {
+        display: block;
+    }
+    #name {
+        display: none;
+    }
+}
